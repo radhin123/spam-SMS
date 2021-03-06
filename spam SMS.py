@@ -101,10 +101,10 @@ def bingung():
 def cok():
 	while True:
 		try:
-			a=input("[+] Nomer Korban 08×××\t: ")
+			a=input("[+] Nomer Korban 55×××\t: ")
 			asu=a[0:2]
 			if a in(""," "):print("[!] Jangan Kosong bre")
-			elif "08" not in asu:print("[!] Gunakan Nomer 08xxx\n")
+			elif "55" not in asu:print("[!] Gunakan Nomer 55xxx\n")
 			elif len(a)<=10:print("[!] Nomer Harus Lebih Dari 10 Angka")
 			else:
 				try:
